@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Denman">
+	<meta name="description" content="Project X">
 	<meta name="author" content="Abdulaziz Alfoudari">
 	<title>Denman</title>
 
@@ -17,8 +17,10 @@
 </head>
 
 <body>
+	{% block body %}
 	Hi
-	
+	{% endblock %}
+
 	<script src="{% static "/js/base.js" %}"></script>
 	{% block extend_js %}{% endblock %}
 </body>

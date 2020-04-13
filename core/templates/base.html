@@ -1,0 +1,26 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Denman">
+	<meta name="author" content="Abdulaziz Alfoudari">
+	<title>Denman</title>
+
+	<!-- CSS -->
+	<link href="{% static "/css/base.css" %}" rel="stylesheet" crossorigin="anonymous">
+	{% block extend_css %}{% endblock %}
+
+</head>
+
+<body>
+	Hi
+	
+	<script src="{% static "/js/base.js" %}"></script>
+	{% block extend_js %}{% endblock %}
+</body>
+
+</html>
